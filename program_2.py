@@ -13,12 +13,12 @@ def categorize_age(age):
     # Date: 2025-09-17
 
     if age <= 1:
-        ageCategory = 'Infant'
+        ageCategory = 'infant'
     elif age > 1 and age < 13:
-        ageCategory = 'Child'
+        ageCategory = 'child'
     elif age >= 13 and age < 20:
-        ageCategory = 'Teenager'
-    else:ageCategory = 'Adult'
+        ageCategory = 'teenager'
+    else:ageCategory = 'adult'
     ######################
 
 
